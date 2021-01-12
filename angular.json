@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "ConstructionFront-End"
+  "defaultProject": "ConstructionFront-End",
+  "cli": {
+    "analytics": "c753ce75-b2d9-4697-bc2e-8a6efe056407"
+  }
 }
