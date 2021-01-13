@@ -23,10 +23,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     SignupComponent,
     AboutComponent,
     ContactComponent,
-   
     ServicesComponent,
-    NavbarComponent,
-    
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
