@@ -1,6 +1,6 @@
 body {
-  background-image: url(/assets/images/937101.jpg);
-  background-size: 1200px;
+  background-image: url('/assets/images/hero.jpg');
+  background-size: 1000px;
   height: 100vh;
   margin-right: 10px;
   margin-bottom: 10px;

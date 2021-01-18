@@ -1,0 +1,98 @@
+<link rel="stylesheet" href="profile.component.css">
+<body style="text-align: center; background-color: rgba(170, 170, 167, 0.897);">
+  <header id="header-title">
+    <h1 id="title" class="textshadow">Job Application Form</h1>
+    <p id="description" class="vis4 textshadow">Thank you for choosing Mejor Constructions</p>
+    </header>
+    <form id="survey-form" href="#" class="background">
+      <div id="div-name">
+      <label for="name" id="name-label" class="vis2">Name:</label> <br>
+        <input
+          name="name"
+          id="name"
+          type="text"
+          required
+          placeholder="Name"
+          class="vis1"
+          >
+      </div>
+      <br>
+      <div id="div-email">
+      <label for="email" id="email-label" class="vis2">Email:</label><br>
+      <input
+          name="email"
+          id="email"
+          type="email"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          required
+          title="Please input the proper format displayed."
+          placeholder="juliuscesar@rome.com"
+          class="vis1"
+          >
+      </div>
+      <br>
+      <div id="div-number">
+      <label for="number" id="number-label" class="vis2">Age:</label><br>
+      <input
+           name="number"
+           id="number"
+           type="number"
+           min="18"
+           max="99"
+           title="Please input only numbers."
+           placeholder="Age"
+           required
+           class="vis1"
+           >
+      </div>
+      <br>
+      <div id="div-job">
+      <label for="job" class="vis2">Which type of job are you interested in?</label><br>
+      <select name="job" id="dropdown" class="vis1">
+        <option disable selected value>Select your skill</option>
+        <option value="Construction manager">Construction manager</option>
+        <option value="Architectural designer">Architectural designer</option>
+        <option value="Supervisor">Supervisor</option>
+        <option value="Estimator">Estimator</option>
+        <option value="Chief engineer">Chief engineer</option>
+        <option value="other">Other</option>
+        </select>
+        </div>
+      <div id="div-department">
+        <p class="vis2">Which Department are you applying for?</p>
+        <label for="radio-eng" class="vis2">
+        <input id="radio-eng" name="department" type="radio" value="engineering">
+        Engineering
+        </label>
+        <label for="radio-acct"class="vis2">
+        <input id="radio-acct" name="department" type="radio" value="blue colar">
+        Blue colar
+      </label>
+        <label for="radio-rsrch"class="vis2">
+        <input id="radio-rsch" name="department" type="radio" value="research">
+        Research and Development
+      </label>
+      </div>
+      <div id="div-check">
+      <p class="vis2">Please check the following if correct:</p>
+        <label for="chk-crime" class="vis2">
+          <input id="chk-crime" name="additional-info" type="checkbox" value="none">
+            I currently don't have any criminal records.
+        </label>
+        <label for="chk-willing" class="vis2">
+          <input id="chk-willing" name="additional-info" type="checkbox" value="yes">
+            I am willing to relocate if accepted.
+        </label>
+        <label for="chk-uphold" class="vis2">
+          <input id="chk-uphold" name="additional-info" type="checkbox" value="yes">
+            I will uphold the company standards and work ethics.
+        </label>
+      </div>
+      <div id="div-comment">
+        <label for="about" class="vis2">We would like to know more about you.
+        </label>
+          <textarea id="about" name="about" rows="10" cols="50" placeholder="Tell us about yourself." class="vis2"></textarea>
+    <button type="submit" id="submit" class="vis3" style="color: rgb(30, 31, 29);">SUBMIT</button>
+      </div>
+    </form>
+</body>

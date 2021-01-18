@@ -1,0 +1,137 @@
+:root {
+  --blue: rgba(71, 14, 0, 0.95);
+  /* --red: rgba(234, 238, 18, 0.8);
+  --gold: hsla(56, 100%, 48%, 0.863);
+  --yellow: hsl(40, 97%, 64%); */
+  --flesh: hsl(51, 55%, 82%);
+  color: goldenrod;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px;
+}
+header{
+  margin: auto;
+}
+#description,#title {
+  text-align: center;
+}
+form {
+  width: 100%;
+  max-width: 526px;
+  margin: auto;
+  padding: 5px 5px;
+}
+#submit {
+  margin: 15px 5px 8px 5px;
+}
+select{
+  height: 28px;
+}
+[type="radio"] {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  top:3px;
+}
+[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  top:3px;
+}
+form p,select,textarea,label,button{
+  margin:10px 0px 0px 0px;
+}
+#name-label,#email-label,#number-label{
+  margin:10px 0px 10px 0px;
+}
+.vis1 {
+  font-size:0.9rem;
+  font-weight:400;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.vis2 {
+  font-size:1.1rem;
+  font-weight: 450;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.vis3{
+  font-size:1.2rem;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+.vis4{
+  font-size:1.3rem;
+  font-weight: 550;
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+[placeholder] {
+  font-size:1.05rem;
+  font-weight:400;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+option {
+  font-size:1.05rem;
+  font-weight:400;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+body {
+  background-color: hsl(201, 95%, 70%,.7);
+  background-image: url("https://images.unsplash.com/photo-1440492248262-6895f9da82fc?crop=entropy&cs=srgb&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=85");
+  background-blend-mode: multiply;
+  background-position: center center;
+  background-repeat: no repeat;
+  background-attachment: fixed;
+}
+form {
+  background-color: var(--blue);
+  background-blend-mode: screen;
+  color: white;
+}
+header{
+  color: var(--orange);
+}
+.textshadow {
+  text-shadow: 2px 2px var(--red);
+}
+#submit{
+  background-color: var(--orange);
+}
+input,select,textarea {
+  outline: none;
+  transition: box-shadow 0.1s;
+  transition-timing-function: ease-in-out;
+}
+input:focus {
+  border:2px solid var(--orange);
+  box-shadow:0px 0px 3px var(--orange);
+}
+select:focus {
+  border:2px solid var(--orange);
+  box-shadow:0px 0px 3px var(--orange);
+}
+textarea:focus {
+  border:2px solid var(--orange);
+  box-shadow:0px 0px 3px var(--orange);
+}
+#submit {
+  border-radius: 7px 7px;
+  color: var(--blue);
+  font-size:22px;
+}
+form {
+  border-radius: 7px 7px;
+}
+input,select,textarea {
+  border-radius: 4px 4px;
+}
